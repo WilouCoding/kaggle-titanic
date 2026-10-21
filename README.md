@@ -28,3 +28,9 @@ Objectif : prédire quels passagers ont survécu à partir de leurs caractérist
 1. Télécharger `train.csv` et `test.csv` sur la page Kaggle de la compétition et les placer dans un dossier `data/`.
 2. Installer les dépendances : pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn.
 3. Ouvrir `notebooks/TitanicModel.ipynb`.
+
+## Pistes d'amélioration
+
+- Imputer l'âge avec la médiane par titre plutôt que la médiane globale
+- Exploiter la colonne `Cabin` (pont du bateau)
+- Changer les paramètres de certaines fonctions, puis effectuer des tests pour obtenir une meilleure validation croisée
